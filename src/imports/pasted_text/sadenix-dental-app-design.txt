@@ -1,0 +1,474 @@
+Create a world-class, highly innovative, animation-rich, Arabic-first RTL dental clinic management web application called “Sadenix”.
+
+Main vision:
+Design Sadenix as a premium, futuristic, real-world, commercially viable dental clinic operating system for Arabic-speaking clinics in Jordan. The product must feel modern, elegant, intelligent, efficient, trustworthy, and deeply polished. It should not look like a generic admin dashboard. It should feel like a flagship medical SaaS product with a unique identity and strong product thinking.
+
+Core language and localization:
+- Entire interface must be in Arabic
+- Full RTL layout across all screens and components
+- Product name must always appear as: Sadenix
+- Default currency must be Jordanian Dinar (JOD)
+- All prices, balances, invoices, revenue metrics, treatment costs, and financial reports must use JOD
+- Locale: Jordan / Arabic
+- Date format: DD/MM/YYYY
+- Support 12-hour and 24-hour time display
+- Use realistic Jordanian Arabic names, doctor names, staff names, and example billing data
+
+Design priorities:
+- Strong emphasis on innovation
+- Strong emphasis on beautiful, premium motion design
+- Strong emphasis on usability for real daily clinic workflows
+- Strong emphasis on Arabic typography, visual hierarchy, and clean spacing
+- Make the interface feel elegant, dynamic, and alive
+- Allow creative freedom to add advanced product features that naturally fit a dental clinic platform
+- Add smart enhancements, premium UX patterns, and helpful medical workflow improvements wherever appropriate
+
+Visual style:
+- Premium medical aesthetic
+- Elegant and modern
+- Trustworthy and calm, but still inventive
+- Use a polished light theme as the main mode, with a dark-mode-ready system
+- Main palette: medical blue, clean white, soft gray, subtle cyan/teal accents
+- Use semantic colors professionally for success, warning, danger, info, appointment states, treatment states, payment states, and alerts
+- Use soft gradients only where helpful
+- Use depth, layered surfaces, refined shadows, modern cards, and subtle highlights
+- Avoid childish colors and avoid boring template-like visuals
+
+Animation and motion requirements:
+- Focus heavily on micro-interactions and prototype-ready motion
+- Create motion states for all major screens and components
+- Use refined, smooth, premium animations suitable for Smart Animate prototyping
+- Include transitions for:
+  - sidebar expand and collapse
+  - dashboard card reveal
+  - animated KPI counters
+  - page transitions
+  - opening patient details
+  - switching tabs inside patient profile
+  - booking an appointment
+  - rescheduling an appointment
+  - invoice creation flow
+  - payment success state
+  - notifications center open/close
+  - filter panel reveal
+  - calendar transitions
+  - odontogram interactions
+  - modal and drawer entrances
+  - hover and pressed states
+  - empty states, loading skeletons, success, warning, and error feedback
+- Use premium easing and smooth transitions
+- Motion should feel product-grade and delightful, not decorative only
+
+Important Figma output style:
+- Create high-fidelity UI
+- Make the screens prototype-ready
+- Use reusable components and variants
+- Build a strong design system first
+- Ensure consistent layers and naming for easy Smart Animate transitions
+- Keep the output handoff-ready for developers
+
+Give the AI creative freedom to add suitable advanced features:
+- Add useful smart features that fit a dental clinic management system naturally
+- Add thoughtful premium touches that improve operations, communication, scheduling, billing, follow-up care, patient experience, and staff efficiency
+- Add innovative features if they align with clinic workflow, but keep everything realistic and usable
+- Prioritize practical innovation over gimmicks
+
+Create a full design system for Sadenix including:
+- Color tokens
+- Typography scale
+- Arabic UI text styles
+- Grid system
+- Spacing system
+- Elevation and shadow system
+- Radius system
+- Icons
+- Buttons
+- Inputs
+- Textareas
+- Search bars
+- Select menus
+- Date pickers
+- Time pickers
+- Tabs
+- Stepper components
+- Chips / pills
+- Badges
+- KPI cards
+- Tables
+- Charts
+- Toasts
+- Modals
+- Drawers
+- Empty states
+- Loading states
+- Error states
+- Confirmation dialogs
+- Upload components
+- Calendar components
+- Timeline components
+- Role badges
+- Motion variants and interaction states
+
+Design the following complete product structure:
+
+1) Authentication
+- Login
+- Forgot password
+- Reset password
+- Optional 2FA
+- Premium Arabic branded authentication experience
+- Elegant medical illustration or subtle animated visual identity
+
+2) Main Dashboard
+Create a premium executive dashboard with animated and actionable widgets:
+- إجمالي المرضى
+- مواعيد اليوم
+- العلاجات المكتملة
+- الفواتير غير المدفوعة
+- إيرادات اليوم (JOD)
+- إيرادات الشهر (JOD)
+- الرصيد المستحق (JOD)
+- المرضى الجدد هذا الشهر
+- نسبة الحضور للمواعيد
+- معدل الإلغاء وعدم الحضور
+Add:
+- Revenue chart
+- Appointments trend chart
+- Treatments analytics
+- New patients growth
+- Quick actions:
+  - إضافة مريض
+  - حجز موعد
+  - إنشاء فاتورة
+  - تسجيل علاج
+  - إنشاء وصفة
+- Alerts:
+  - مواعيد فائتة
+  - نقص في المخزون
+  - فواتير متأخرة
+  - مراجعات قريبة
+  - حالات تحتاج متابعة
+Make the dashboard feel dynamic, premium, and alive with subtle motion storytelling
+
+3) Patient Management
+- Advanced Arabic RTL patients list
+- Search, sort, filter, tags, status
+- Add patient form
+- Edit patient form
+- Patient profile with tabs:
+  - المعلومات الشخصية
+  - معلومات التواصل
+  - التاريخ الطبي
+  - تاريخ الأسنان
+  - الحساسية
+  - الأمراض المزمنة
+  - التأمين
+  - المواعيد
+  - العلاجات
+  - الوصفات
+  - الفواتير والمدفوعات
+  - الصور والأشعة والملفات
+  - الملاحظات السريرية
+- Patient balance summary in JOD
+- Patient timeline with animated sections
+- Fast actions from patient card:
+  - حجز موعد
+  - إرسال واتساب
+  - إنشاء فاتورة
+  - عرض السجل الطبي
+  - إضافة ملاحظة
+  - طباعة الملف
+- Add a smart patient ID system and visually strong profile experience
+
+4) WhatsApp reminder features
+Add dedicated interfaces and flows for WhatsApp communication:
+- Save patient phone number with WhatsApp-ready validation
+- WhatsApp reminder settings
+- Automated reminder templates in Arabic
+- Reminder timing options:
+  - قبل 24 ساعة
+  - قبل 3 ساعات
+  - قبل ساعة
+- Appointment confirmation via WhatsApp
+- Reminder sent status
+- Delivery / pending / failed states
+- Message template editor
+- Personalized reminder preview
+- Quick send WhatsApp action from:
+  - patient profile
+  - appointment details
+  - today appointments list
+- Design this feature as a premium integrated communication center
+- Make it feel seamless and native to clinic workflow
+
+5) Google Calendar integration for doctor reminders
+Add a complete integration concept with Google Calendar:
+- Connect doctor account to Google Calendar
+- Sync appointments to doctor calendar
+- Create event automatically for each booked appointment
+- Configure reminder timing for doctors
+- Event details include:
+  - patient name
+  - treatment type
+  - appointment time
+  - branch
+  - notes
+- Doctor schedule sync status
+- Calendar sync settings page
+- Conflict detection UI
+- Reschedule updates reflected in calendar sync
+- Cancellation reflected in doctor calendar
+- Multi-doctor calendar management
+- Visual connection state:
+  - connected
+  - syncing
+  - failed
+  - needs reconnection
+Make the integration feel trustworthy and operationally useful
+
+6) Appointment Management
+Create a highly polished Arabic scheduling experience:
+- Day view
+- Week view
+- Month view
+- Dentist schedule view
+- Chair/room allocation
+- Appointment states:
+  - محجوز
+  - مؤكد
+  - تم تسجيل الوصول
+  - تحت العلاج
+  - مكتمل
+  - ملغي
+  - لم يحضر
+- New booking drawer/modal
+- Reschedule flow
+- Cancellation flow
+- Waiting list management
+- Reminder settings
+- Quick WhatsApp send from appointment details
+- Quick Google Calendar sync status for doctor
+- Advanced filters:
+  - doctor
+  - branch
+  - status
+  - treatment type
+- Use excellent transitions and premium calendar interactions
+
+7) Doctors and Staff
+- Staff list
+- Roles and permissions
+- Dentist profile
+- Specializations
+- Working hours
+- Attendance summary
+- Performance insights
+- Schedule overview
+- Daily workload widget
+- Doctor reminder settings
+- Google Calendar connection status
+- Staff productivity cards
+
+8) Treatments and Services
+- Treatments catalog
+- Procedure categories
+- Add treatment plan
+- Multi-step treatment workflow
+- Treatment cost in JOD
+- Duration
+- Follow-up recommendation
+- Estimate vs actual cost
+- Before/after attachments
+- Treatment package suggestions
+- Suggested next visit logic
+- Smart upsell section for relevant complementary services
+
+9) Interactive Dental Odontogram
+Design one of the most innovative screens in the product:
+- Full interactive odontogram
+- Adult and child chart
+- Tooth condition status
+- Planned treatments
+- Completed treatments
+- Linked clinical notes for each tooth
+- Tooltip and side panel interactions
+- Visual coding for each case type
+- Animated hover and selection behavior
+- Keep it clinically usable, not just flashy
+
+10) Billing and Payments
+- Invoices list
+- Create invoice flow
+- Invoice details page
+- Payment collection modal
+- Receipt screen
+- Refund flow
+- Discount and tax fields
+- Payment methods:
+  - نقدي
+  - بطاقة
+  - تحويل بنكي
+  - تأمين
+- Payment status:
+  - مدفوعة
+  - مدفوعة جزئيًا
+  - غير مدفوعة
+  - متأخرة
+- Outstanding balances dashboard
+- Daily / weekly / monthly revenue in JOD
+- Financial cards must all use JOD
+- Use realistic Jordanian billing examples like:
+  - 25 JOD
+  - 60 JOD
+  - 120 JOD
+  - 350 JOD
+  - 900 JOD
+Make billing feel premium, clear, and trustworthy
+
+11) Insurance
+- Insurance providers
+- Policy details
+- Approval status
+- Claims tracking
+- Coverage breakdown
+- Co-pay interface
+- Insurance-linked invoices
+- Insurance summaries in JOD
+
+12) Inventory and Supplies
+- Inventory dashboard
+- Materials and tools list
+- Expiry tracking
+- Low stock alerts
+- Supplier management
+- Purchase requests
+- Stock movement history
+- Inventory valuation in JOD
+- Link item consumption to treatment usage
+
+13) Prescriptions and Medication
+- Prescription creation
+- Dosage and duration
+- Printable prescription
+- Medication instructions
+- Clinical note linking
+- Patient-linked prescription history
+
+14) Files, X-rays, and Attachments
+- Upload center
+- X-ray gallery
+- Clinical image viewer
+- PDF/attachment previews
+- Patient-linked secure documents
+- Filter by type / date / patient
+- Elegant preview modals
+
+15) Reports and Analytics
+- Revenue reports in JOD
+- Patient growth
+- Appointment trends
+- No-show analysis
+- Treatment performance
+- Staff performance
+- Outstanding payment reports
+- Inventory usage reports
+- Branch comparison
+- Export UI for PDF / Excel / CSV
+Make reports feel executive-grade and polished
+
+16) Notifications and Communication Center
+Create a unified communication hub:
+- WhatsApp reminders
+- SMS reminders
+- Email notifications
+- Payment reminders
+- Follow-up reminders
+- Appointment confirmation messages
+- Internal alerts
+- Notification templates
+- Notification history
+- Delivery state indicators
+- Smart communication filters
+Design this center as a premium operational command panel
+
+17) Settings
+- Clinic profile
+- Branding
+- Working hours
+- Branch settings
+- Currency set to JOD by default
+- Tax settings
+- User roles and permissions
+- Security settings
+- Backup settings
+- Language settings
+- Notification settings
+- Integration settings
+- Google Calendar integration settings
+- WhatsApp messaging settings
+
+18) Multi-branch support
+- Branch switcher
+- Branch dashboard
+- Branch performance comparison
+- Branch-based appointment filtering
+- Branch-based billing filtering
+- Branch-based doctor schedule filtering
+
+19) Role-based interfaces
+Create specialized experiences for:
+- Super Admin
+- Clinic Manager
+- Receptionist
+- Dentist
+- Accountant
+- Assistant
+Each role should have smart contextual navigation and permissions
+
+Add advanced creative features that fit the product naturally, such as:
+- Smart follow-up suggestions after treatment
+- AI-style assistant cards for operational recommendations
+- Missed-appointment recovery workflow
+- Patient loyalty and return-visit indicators
+- VIP patient tagging
+- Treatment completion progress rings
+- One-click repeat appointment booking
+- Recall scheduling for future checkups
+- Patient satisfaction capture after visit
+- Daily clinic readiness dashboard
+- Doctor workload balancing suggestions
+- Smart recommendations for empty appointment slots
+- Revenue opportunity highlights
+- Branch health score
+- Clinic performance pulse widgets
+All added features must remain realistic, useful, elegant, and aligned with dental clinic operations
+
+Navigation:
+- Premium RTL sidebar
+- Top bar with global search, notifications, profile, branch switcher
+- Breadcrumbs
+- Contextual actions
+- Floating quick actions where useful
+- High clarity and strong page hierarchy
+
+Responsive output:
+- Desktop-first
+- Also create tablet and mobile examples for:
+  - dashboard
+  - patient list
+  - patient profile
+  - appointments
+  - invoice details
+  - communication center
+
+Output requirements:
+- Full design system page
+- High-fidelity desktop UI
+- Prototype-ready states
+- Motion-ready frames
+- Key responsive screens
+- Component variants
+- Clean developer handoff structure
+
+Final instruction:
+Give yourself creative freedom to invent and add premium features, delightful micro-interactions, and workflow enhancements that naturally suit a dental clinic management system, while preserving operational realism, Arabic RTL excellence, and a premium medical SaaS identity.
