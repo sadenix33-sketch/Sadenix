@@ -20,6 +20,7 @@ import {
   Loader2,
   Bell,
   Sparkles,
+  AlertTriangle,
 } from "lucide-react";
 import { supabase } from "../../lib/supabase";
 import { useAuth } from "../context/AuthContext";
@@ -62,7 +63,10 @@ export function SmartAutomationPage() {
   const [error, setError] = useState<string | null>(null);
 
   const fetchDailyData = useCallback(async () => {
-    if (!clinicId) return;
+    if (!clinicId) {
+      setLoading(false);
+      return;
+    }
     setLoading(true);
     setError(null);
     try {
